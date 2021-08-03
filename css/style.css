@@ -1,0 +1,282 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Cormorant Garamond', serif;
+}
+header{
+    height: 100px;
+    width: 90%;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+nav{
+    width: 70%;
+    float: right;
+    margin-top: 30px;
+    overflow: hidden;
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li{
+    float: right;
+    margin-left: 80px;
+    font-size: 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+}
+.banner{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.introduction{
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 100px;
+    width: 70%;
+    text-align: left;
+    overflow: hidden;
+}
+.introduction h2{
+    font-family: sans-serif;
+    color: #cccccc;
+}
+.introduction h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: rgb(60, 59, 59);
+}
+.introduction p{
+    color: rgb(79, 78, 78);
+    
+    
+}
+.introduction h3{
+    margin-top: 30px;
+    font-family: sans-serif;
+    color: #cccccc;
+}
+.top-content{
+    overflow: hidden;
+    width: 90%;
+    margin-top: 200px;
+    
+}
+.content-1{
+    float: left;
+    width: 30%;
+    margin-left: 250px;
+}
+.content-1 img{
+
+}
+.content-1 h3{
+    color: #cccccc;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.content-1 h1{
+     font-size: 30px;
+     margin-top: 20px;
+    color: rgb(60, 59, 59);
+
+}
+.content-1 p{
+    color: rgb(60, 59, 59);
+    
+}
+.content-2{
+    float: right;
+    width: 30%;
+}
+.content-2 img{
+
+}
+.content-2 h3{
+    color: #cccccc;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.content-2 h1{
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(60, 59, 59);
+
+}
+.content-2 p{
+    color: rgb(60, 59, 59);
+    
+}
+.mid-content{ 
+    overflow: hidden;
+    width: 90%;
+    margin-top: 200px;
+    
+}
+.content-3{
+    float: left;
+    width: 30%;
+    margin-left: 250px;
+}
+.content-3 img{
+
+}
+.content-3 h3{
+    color: #cccccc;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.content-3 h1{
+     font-size: 30px;
+     margin-top: 20px;
+    color: rgb(60, 59, 59);
+
+}
+.content-3 p{
+    color: rgb(60, 59, 59);
+    
+}
+.content-4{
+    float: right;
+    width: 30%;
+}
+.content-4 img{
+
+}
+.content-4 h3{
+    color: #cccccc;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.content-4 h1{
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(60, 59, 59);
+
+}
+.content-4 p{
+    color: rgb(60, 59, 59);
+    
+}
+.signup-section{
+    width: 100%;
+    background-color:#cccccc;
+    height: 400px;
+    margin-top: 100px;
+}
+.signup-section h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 90px;
+}
+.mail{
+    text-align: center;
+    height: 10px;
+    margin-top: 70px;
+   
+}
+.mail input{
+    width: 30%;
+    border-bottom: 1px solid black;
+    border: none;
+    background-color: #b8b7b7;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.bottom-content{ 
+    overflow: hidden;
+    width: 90%;
+    margin-top: 200px;
+    
+}
+.content-5{
+    float: left;
+    width: 30%;
+    margin-left: 250px;
+}
+.content-5 img{
+
+}
+.content-5 h3{
+    color: #cccccc;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.content-5 h1{
+     font-size: 30px;
+     margin-top: 20px;
+    color: rgb(60, 59, 59);
+
+}
+.content-5 p{
+    color: rgb(60, 59, 59);
+    
+}
+.content-6{
+    float: right;
+    width: 30%;
+}
+.content-6 img{
+
+}
+.content-6 h3{
+    color: #cccccc;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.content-6 h1{
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(60, 59, 59);
+
+}
+.content-6 p{
+    color: rgb(60, 59, 59);
+    
+}
+.button-section{
+    height: 20px;
+    padding: 80px;
+    text-align: center;
+}
+.button-section button{
+    padding: 20px;
+    width: auto;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+footer{
+    padding: 30px;
+    background-color: #cccccc;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.terms{
+    margin-left: 100px;
+    float: left;
+    margin-top: 10px;
+}
+.icons{
+    float: right;
+}
